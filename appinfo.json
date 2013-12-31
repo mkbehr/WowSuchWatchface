@@ -15,6 +15,11 @@
     "resources": {
         "media": [
             {
+                "type": "raw",
+                "name": "KLUDGE",
+                "file": "data/wowsuchwatchface.pbw"
+            },
+            {
                 "type": "font",
                 "name": "COMIC_SANS_21",
                 "file": "fonts/Comic Sans MS.ttf"
