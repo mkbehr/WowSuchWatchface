@@ -63,9 +63,7 @@ void drawTime(struct tm *tick_time, TimeUnits units_changed){
 		}
 	}
 	text_layer_set_text(time_layer, time_text);
-}
 
-void drawDate(struct tm *tick_time, TimeUnits units_changed){
 	static char date_text[40];
 	strftime(date_text, sizeof(date_text), "%A %b %d", tick_time);
 	text_layer_set_text(date_layer, date_text);
@@ -166,13 +164,11 @@ void handle_init(void) {
 	drawSPD(-2);
 	
 	tick_timer_service_subscribe(MINUTE_UNIT, drawTime);
-	tick_timer_service_subscribe(DAY_UNIT, drawDate);
 	
 	time_t init_time = time(0);
 	struct tm *init_local = localtime(&init_time);
 	
 	drawTime(init_local, 0);
-	drawDate(init_local, 0);
 	
 
 }

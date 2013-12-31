@@ -15,28 +15,8 @@
     "resources": {
         "media": [
             {
-                "type": "png",
-                "name": "WOW_SUCH_FACE",
-                "file": "images/shibeface.png"
-            },
-            {
                 "type": "font",
-                "name": "COMIC_SANS_BOLD_21",
-                "file": "fonts/Comic Sans MS Bold.ttf"
-            },
-            {
-                "type": "font",
-                "name": "COMIC_SANS_BOLD_36",
-                "file": "fonts/Comic Sans MS Bold.ttf"
-            },
-            {
-                "type": "font",
-                "name": "COMIC_SANS_16",
-                "file": "fonts/Comic Sans MS.ttf"
-            },
-            {
-                "type": "font",
-                "name": "COMIC_SANS_10",
+                "name": "COMIC_SANS_21",
                 "file": "fonts/Comic Sans MS.ttf"
             },
             {
@@ -46,8 +26,28 @@
             },
             {
                 "type": "font",
-                "name": "COMIC_SANS_21",
+                "name": "COMIC_SANS_10",
                 "file": "fonts/Comic Sans MS.ttf"
+            },
+            {
+                "type": "font",
+                "name": "COMIC_SANS_16",
+                "file": "fonts/Comic Sans MS.ttf"
+            },
+            {
+                "type": "font",
+                "name": "COMIC_SANS_BOLD_36",
+                "file": "fonts/Comic Sans MS Bold.ttf"
+            },
+            {
+                "type": "font",
+                "name": "COMIC_SANS_BOLD_21",
+                "file": "fonts/Comic Sans MS Bold.ttf"
+            },
+            {
+                "type": "png",
+                "name": "WOW_SUCH_FACE",
+                "file": "images/shibeface.png"
             }
         ]
     }
